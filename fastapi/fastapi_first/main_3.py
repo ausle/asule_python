@@ -2,6 +2,7 @@ from fastapi import Depends, FastAPI
 
 app = FastAPI()
 
+# 介绍了依赖注入
 
 # 创建依赖项
 # 依赖函数：集中处理多个接口可能共用的分页参数
